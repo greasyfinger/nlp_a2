@@ -1,0 +1,37 @@
+{
+    "os": "macOS-13.3-arm64-arm-64bit",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-03-08T23:46:00.291855",
+    "startedAt": "2024-03-08T23:45:59.107958",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/greasyfinger/Documents/nlp_a2/task_1/RNN_lbert.py",
+    "codePathLocal": "RNN_lbert.py",
+    "codePath": "task_1/RNN_lbert.py",
+    "git": {
+        "remote": "https://github.com/greasyfinger/nlp_a2.git",
+        "commit": "def7e77678e38237fd4a8cad491f186f9ccdd616"
+    },
+    "email": null,
+    "root": "/Users/greasyfinger/Documents/nlp_a2",
+    "host": "greasy-Macbook.local",
+    "username": "greasyfinger",
+    "executable": "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 130.2578887939453
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

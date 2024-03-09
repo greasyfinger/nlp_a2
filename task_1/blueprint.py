@@ -152,14 +152,9 @@ def run_epochs(model, tokenizer, run_name):
             train_loss += loss.item()
 
             # Calculate F1-score
-            predicted = [
-                idx_to_label[idx]
-                for idx in outputs.argmax(dim=2).cpu().numpy().flatten()
-            ]
-            true = [idx_to_label[idx] for idx in labels.cpu().numpy().flatten()]
-            train_f1 += f1_score(
-                true, predicted, average="macro", labels=list(idx_to_label), zero_division=0
-            )
+            predicted = outputs.argmax(dim=2).cpu().numpy()
+            true = labels.cpu().numpy()
+            train_f1 += f1_score(true.flatten(), predicted.flatten(), average="macro")
 
         model.eval()
         val_loss = 0
@@ -172,14 +167,9 @@ def run_epochs(model, tokenizer, run_name):
                 val_loss += loss.item()
 
                 # Calculate F1-score
-                predicted = [
-                    idx_to_label[idx]
-                    for idx in outputs.argmax(dim=2).cpu().numpy().flatten()
-                ]
-                true = [idx_to_label[idx] for idx in labels.cpu().numpy().flatten()]
-                val_f1 += f1_score(
-                    true, predicted, average="macro", labels=list(idx_to_label), zero_division=0
-                )
+                predicted = outputs.argmax(dim=2).cpu().numpy()
+                true = labels.cpu().numpy()
+                val_f1 += f1_score(true.flatten(), predicted.flatten(), average="macro")
 
         # Log metrics to W&B
         train_loss /= len(train_loader)
@@ -209,7 +199,7 @@ def run_epochs(model, tokenizer, run_name):
             epochs_without_improvement += 1
 
         # Check if training should be stopped
-        if epochs_without_improvement >= 3:
+        if epochs_without_improvement >= 5:
             print(f"Stopping early at epoch {epoch+1} due to no improvement.")
             break
 

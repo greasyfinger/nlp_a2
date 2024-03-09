@@ -2,6 +2,8 @@ import torch.nn as nn
 from transformers import AutoTokenizer, AutoModel
 from task_2_torch.blueprint import run_epochs
 
+tokenizer = AutoTokenizer.from_pretrained("nlpaueb/legal-bert-base-uncased")
+embeddings = AutoModel.from_pretrained("nlpaueb/legal-bert-base-uncased").embeddings
 
 class RNNSequenceTaggingModel(nn.Module):
     def __init__(self, embedding_dim, hidden_dim, num_layers, num_classes):
@@ -19,7 +21,5 @@ class RNNSequenceTaggingModel(nn.Module):
 
 
 model = RNNSequenceTaggingModel(768, 256, 1, 3)
-tokenizer = AutoTokenizer.from_pretrained("nlpaueb/legal-bert-base-uncased")
-embeddings = AutoModel.from_pretrained("nlpaueb/legal-bert-base-uncased").embeddings
 
 run_epochs(model, tokenizer, "RNN-Legal_Bert_2")

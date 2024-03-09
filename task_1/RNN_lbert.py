@@ -4,6 +4,8 @@ from blueprint import run_epochs
 
 num_labels = 27
 
+tokenizer = AutoTokenizer.from_pretrained("nlpaueb/legal-bert-base-uncased")
+embeddings = AutoModel.from_pretrained("nlpaueb/legal-bert-base-uncased").embeddings
 
 class RNNSequenceTaggingModel(nn.Module):
     def __init__(self, embedding_dim, hidden_dim, num_layers, num_classes):
@@ -21,7 +23,5 @@ class RNNSequenceTaggingModel(nn.Module):
 
 
 model = RNNSequenceTaggingModel(768, 256, 1, num_labels)
-tokenizer = AutoTokenizer.from_pretrained("nlpaueb/legal-bert-base-uncased")
-embeddings = AutoModel.from_pretrained("nlpaueb/legal-bert-base-uncased").embeddings
 
 run_epochs(model, tokenizer, "RNN-Legal_Bert_1")
