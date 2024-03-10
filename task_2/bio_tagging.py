@@ -9,11 +9,7 @@ os.chdir("task_2")
 
 def bio_chunking(text, aspects):
 
-    clean_text = re.sub(
-        r"^[\s,.;()\[\]]+|[\s,.;()\[\]]+$", "", re.sub(r"\s+", " ", text)
-    ).strip()
-
-    tokens = clean_text.split()
+    tokens = text.split()
     labels = ["O"] * len(tokens)
 
     for aspect in aspects:
@@ -42,6 +38,7 @@ def tag_json(input_file, output_file):
 
     with open(output_file, "w") as f:
         json.dump(output, f, indent=4)
+
 
 if __name__ == "__main__":
     # Create or recreate output folder
