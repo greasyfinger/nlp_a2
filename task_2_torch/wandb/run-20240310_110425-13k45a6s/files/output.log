@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/greasyfinger/Documents/nlp_a2/task_2_torch/Bert_model.py", line 33, in <module>
+    run_epochs(model, tokenizer, "RNN-Bert_2")
+  File "/Users/greasyfinger/Documents/nlp_a2/task_2_torch/blueprint.py", line 112, in run_epochs
+    for epoch in tqdm(range(num_epochs), desc="Epochs"):
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'module' object is not callable

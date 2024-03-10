@@ -1,0 +1,37 @@
+{
+    "os": "macOS-13.3-arm64-arm-64bit",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-03-08T22:59:12.265134",
+    "startedAt": "2024-03-08T22:59:11.185006",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/greasyfinger/Documents/nlp_a2/task_1/blueprint.py",
+    "codePathLocal": "blueprint.py",
+    "codePath": "task_1/blueprint.py",
+    "git": {
+        "remote": "https://github.com/greasyfinger/nlp_a2.git",
+        "commit": "ae75ea43bac46cd8bea44e61ad9d3d21c3558637"
+    },
+    "email": null,
+    "root": "/Users/greasyfinger/Documents/nlp_a2",
+    "host": "greasy-Macbook.local",
+    "username": "greasyfinger",
+    "executable": "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 130.11748504638672
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

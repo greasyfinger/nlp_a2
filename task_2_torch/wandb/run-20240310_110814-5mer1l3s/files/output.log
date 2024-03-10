@@ -1,0 +1,26 @@
+Epochs:   0%|                                                                                                                                                                    | 0/10 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/greasyfinger/Documents/nlp_a2/task_2_torch/Bert_model.py", line 56, in <module>
+    run_epochs(model, tokenizer, "LSTM-Bert_2")
+  File "/Users/greasyfinger/Documents/nlp_a2/task_2_torch/blueprint.py", line 119, in run_epochs
+    outputs = model(inputs)
+              ^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/greasyfinger/Documents/nlp_a2/task_2_torch/Bert_model.py", line 51, in forward
+    out = self.fc(self.dropout(out))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: linear(): input and weight.T shapes cannot be multiplied (512x512 and 256x3)

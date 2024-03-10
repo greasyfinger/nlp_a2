@@ -1,0 +1,10 @@
+
+Epoch 1/50, Train Loss: 0.05903497734570883, Val Loss: 0.031992913492851785, Train F1: 0.07188632463466406, Val F1: 0.11263975064096679
+Epoch 2/50, Train Loss: 0.02711987607477908, Val Loss: 0.028250373486015532, Train F1: 0.14070416842506359, Val F1: 0.14190883010203398
+Traceback (most recent call last):
+  File "/Users/greasyfinger/Documents/nlp_a2/task_1/GRU_model.py", line 30, in <module>
+    run_epochs(model, tokenizer, "GRU-Legal_Bert_1")
+  File "/Users/greasyfinger/Documents/nlp_a2/task_1/blueprint.py", line 152, in run_epochs
+    train_loss += loss.item()
+                  ^^^^^^^^^^^
+KeyboardInterrupt
