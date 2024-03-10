@@ -1,4 +1,3 @@
-import re
 import json
 import os
 import shutil
@@ -42,13 +41,17 @@ def tag_json(input_file, output_file):
 
 if __name__ == "__main__":
     # Create or recreate output folder
-    bio_output_folder = "tag_output"
+    bio_output_folder = "dataset"
     if os.path.exists(bio_output_folder):
         shutil.rmtree(bio_output_folder)
     os.makedirs(bio_output_folder)
 
     tag_json(
-        "dataset/train_set.json", os.path.join(bio_output_folder, "train_bio.json")
+        "raw_dataset/train_set.json", os.path.join(bio_output_folder, "train_set.json")
     )
-    tag_json("dataset/val_set.json", os.path.join(bio_output_folder, "val_bio.json"))
-    tag_json("dataset/test_set.json", os.path.join(bio_output_folder, "test_bio.json"))
+    tag_json(
+        "raw_dataset/val_set.json", os.path.join(bio_output_folder, "val_set.json")
+    )
+    tag_json(
+        "raw_dataset/test_set.json", os.path.join(bio_output_folder, "test_set.json")
+    )
