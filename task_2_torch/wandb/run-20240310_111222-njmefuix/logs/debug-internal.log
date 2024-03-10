@@ -1,0 +1,261 @@
+2024-03-10 11:12:22,462 INFO    StreamThr :40312 [internal.py:wandb_internal():86] W&B internal server running at pid: 40312, started at: 2024-03-10 11:12:22.462231
+2024-03-10 11:12:22,463 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status
+2024-03-10 11:12:22,465 INFO    WriterThread:40312 [datastore.py:open_for_write():87] open: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/run-njmefuix.wandb
+2024-03-10 11:12:22,465 DEBUG   SenderThread:40312 [sender.py:send():382] send: header
+2024-03-10 11:12:22,510 DEBUG   SenderThread:40312 [sender.py:send():382] send: run
+2024-03-10 11:12:23,470 INFO    SenderThread:40312 [dir_watcher.py:__init__():211] watching files in: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files
+2024-03-10 11:12:23,470 INFO    SenderThread:40312 [sender.py:_start_run_threads():1136] run started: njmefuix with start time 1710049342.461697
+2024-03-10 11:12:23,483 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: check_version
+2024-03-10 11:12:23,483 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: check_version
+2024-03-10 11:12:23,720 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: run_start
+2024-03-10 11:12:23,722 DEBUG   HandlerThread:40312 [system_info.py:__init__():27] System info init
+2024-03-10 11:12:23,722 DEBUG   HandlerThread:40312 [system_info.py:__init__():42] System info init done
+2024-03-10 11:12:23,722 INFO    HandlerThread:40312 [system_monitor.py:start():194] Starting system monitor
+2024-03-10 11:12:23,722 INFO    SystemMonitor:40312 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-10 11:12:23,722 INFO    HandlerThread:40312 [system_monitor.py:probe():214] Collecting system info
+2024-03-10 11:12:23,722 DEBUG   HandlerThread:40312 [system_info.py:probe():151] Probing system
+2024-03-10 11:12:23,723 INFO    SystemMonitor:40312 [interfaces.py:start():190] Started cpu monitoring
+2024-03-10 11:12:23,725 INFO    SystemMonitor:40312 [interfaces.py:start():190] Started disk monitoring
+2024-03-10 11:12:23,725 INFO    SystemMonitor:40312 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-10 11:12:23,732 INFO    SystemMonitor:40312 [interfaces.py:start():190] Started memory monitoring
+2024-03-10 11:12:23,735 INFO    SystemMonitor:40312 [interfaces.py:start():190] Started network monitoring
+2024-03-10 11:12:23,735 DEBUG   HandlerThread:40312 [system_info.py:_probe_git():136] Probing git
+2024-03-10 11:12:23,765 DEBUG   HandlerThread:40312 [system_info.py:_probe_git():144] Probing git done
+2024-03-10 11:12:23,765 DEBUG   HandlerThread:40312 [system_info.py:probe():199] Probing system done
+2024-03-10 11:12:23,765 DEBUG   HandlerThread:40312 [system_monitor.py:probe():223] {'os': 'macOS-13.3-arm64-arm-64bit', 'python': '3.11.5', 'heartbeatAt': '2024-03-10T05:42:23.722822', 'startedAt': '2024-03-10T05:42:22.456964', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/greasyfinger/Documents/nlp_a2/task_2_torch/Bert_model.py', 'codePathLocal': 'Bert_model.py', 'codePath': 'task_2_torch/Bert_model.py', 'git': {'remote': 'https://github.com/greasyfinger/nlp_a2.git', 'commit': 'c12dc2c71d62307a6b23d3d5eb4ebc569746cf70'}, 'email': None, 'root': '/Users/greasyfinger/Documents/nlp_a2', 'host': 'greasy-Macbook.local', 'username': 'greasyfinger', 'executable': '/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 460.4317207336426, 'used': 130.80888748168945}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2024-03-10 11:12:23,765 INFO    HandlerThread:40312 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-10 11:12:23,765 INFO    HandlerThread:40312 [system_monitor.py:probe():227] Publishing system info
+2024-03-10 11:12:23,765 DEBUG   HandlerThread:40312 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-03-10 11:12:24,475 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/conda-environment.yaml
+2024-03-10 11:12:24,492 DEBUG   HandlerThread:40312 [system_info.py:_save_conda():220] Saving conda packages done
+2024-03-10 11:12:24,493 INFO    HandlerThread:40312 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-10 11:12:24,493 DEBUG   SenderThread:40312 [sender.py:send():382] send: files
+2024-03-10 11:12:24,493 INFO    SenderThread:40312 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-10 11:12:24,496 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-10 11:12:24,497 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: python_packages
+2024-03-10 11:12:24,497 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-10 11:12:24,498 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: stop_status
+2024-03-10 11:12:24,498 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-10 11:12:24,919 DEBUG   SenderThread:40312 [sender.py:send():382] send: telemetry
+2024-03-10 11:12:24,919 DEBUG   SenderThread:40312 [sender.py:send():382] send: telemetry
+2024-03-10 11:12:25,480 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/requirements.txt
+2024-03-10 11:12:25,480 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/output.log
+2024-03-10 11:12:25,480 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/wandb-metadata.json
+2024-03-10 11:12:25,836 INFO    wandb-upload_0:40312 [upload_job.py:push():131] Uploaded file /var/folders/jw/_f2zhz1d7cv9s1t6_f3s1dvc0000gn/T/tmpfbxo0xe8wandb/z5r8fd4w-wandb-metadata.json
+2024-03-10 11:12:27,490 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/output.log
+2024-03-10 11:12:27,935 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:12:32,958 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:12:37,978 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:12:39,502 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-10 11:12:39,502 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-10 11:12:39,503 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: stop_status
+2024-03-10 11:12:43,972 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:12:44,743 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-10 11:12:44,744 DEBUG   SenderThread:40312 [sender.py:send():382] send: history
+2024-03-10 11:12:44,744 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: summary_record
+2024-03-10 11:12:44,745 INFO    SenderThread:40312 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-10 11:12:45,584 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/wandb-summary.json
+2024-03-10 11:12:47,595 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/output.log
+2024-03-10 11:12:49,964 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:12:54,508 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-10 11:12:54,508 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-10 11:12:54,508 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: stop_status
+2024-03-10 11:12:55,902 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:12:56,638 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/config.yaml
+2024-03-10 11:13:01,359 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:13:04,641 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-10 11:13:04,642 DEBUG   SenderThread:40312 [sender.py:send():382] send: history
+2024-03-10 11:13:04,642 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: summary_record
+2024-03-10 11:13:04,643 INFO    SenderThread:40312 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-10 11:13:04,679 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/wandb-summary.json
+2024-03-10 11:13:05,680 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/output.log
+2024-03-10 11:13:06,652 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:13:07,686 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/output.log
+2024-03-10 11:13:09,512 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-10 11:13:09,513 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-10 11:13:09,513 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: stop_status
+2024-03-10 11:13:11,958 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:13:16,984 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:13:22,009 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:13:23,740 DEBUG   SystemMonitor:40312 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-10 11:13:23,741 DEBUG   SenderThread:40312 [sender.py:send():382] send: telemetry
+2024-03-10 11:13:23,742 DEBUG   SenderThread:40312 [sender.py:send():382] send: stats
+2024-03-10 11:13:24,279 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-10 11:13:24,280 DEBUG   SenderThread:40312 [sender.py:send():382] send: history
+2024-03-10 11:13:24,280 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: summary_record
+2024-03-10 11:13:24,280 INFO    SenderThread:40312 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-10 11:13:24,516 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-10 11:13:24,517 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-10 11:13:24,517 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: stop_status
+2024-03-10 11:13:24,771 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/wandb-summary.json
+2024-03-10 11:13:25,777 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/output.log
+2024-03-10 11:13:27,035 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:13:27,788 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/config.yaml
+2024-03-10 11:13:32,489 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:13:37,515 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:13:39,521 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-10 11:13:39,521 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-10 11:13:39,521 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: stop_status
+2024-03-10 11:13:42,962 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:13:44,048 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-10 11:13:44,048 DEBUG   SenderThread:40312 [sender.py:send():382] send: history
+2024-03-10 11:13:44,049 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: summary_record
+2024-03-10 11:13:44,049 INFO    SenderThread:40312 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-10 11:13:44,873 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/wandb-summary.json
+2024-03-10 11:13:45,878 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/output.log
+2024-03-10 11:13:48,193 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:13:53,212 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:13:53,747 DEBUG   SenderThread:40312 [sender.py:send():382] send: stats
+2024-03-10 11:13:54,524 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-10 11:13:54,526 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-10 11:13:54,526 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: stop_status
+2024-03-10 11:13:58,457 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:14:03,482 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:14:03,777 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-10 11:14:03,778 DEBUG   SenderThread:40312 [sender.py:send():382] send: history
+2024-03-10 11:14:03,778 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: summary_record
+2024-03-10 11:14:03,778 INFO    SenderThread:40312 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-10 11:14:03,909 DEBUG   SenderThread:40312 [sender.py:send():382] send: telemetry
+2024-03-10 11:14:03,909 DEBUG   SenderThread:40312 [sender.py:send():382] send: exit
+2024-03-10 11:14:03,909 INFO    SenderThread:40312 [sender.py:send_exit():589] handling exit code: 0
+2024-03-10 11:14:03,909 INFO    SenderThread:40312 [sender.py:send_exit():591] handling runtime: 100
+2024-03-10 11:14:03,909 INFO    SenderThread:40312 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-10 11:14:03,909 INFO    SenderThread:40312 [sender.py:send_exit():597] send defer
+2024-03-10 11:14:03,909 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:03,910 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-10 11:14:03,910 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:03,910 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-03-10 11:14:03,910 INFO    SenderThread:40312 [sender.py:transition_state():617] send defer: 1
+2024-03-10 11:14:03,910 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:03,910 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-10 11:14:03,910 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:03,910 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-03-10 11:14:03,910 INFO    SenderThread:40312 [sender.py:transition_state():617] send defer: 2
+2024-03-10 11:14:03,910 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:03,910 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-10 11:14:03,910 INFO    HandlerThread:40312 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-10 11:14:03,910 DEBUG   SystemMonitor:40312 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-10 11:14:03,910 DEBUG   SystemMonitor:40312 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-10 11:14:03,910 INFO    HandlerThread:40312 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-10 11:14:03,911 INFO    HandlerThread:40312 [interfaces.py:finish():202] Joined disk monitor
+2024-03-10 11:14:03,911 INFO    HandlerThread:40312 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-10 11:14:03,911 INFO    HandlerThread:40312 [interfaces.py:finish():202] Joined memory monitor
+2024-03-10 11:14:03,911 INFO    HandlerThread:40312 [interfaces.py:finish():202] Joined network monitor
+2024-03-10 11:14:03,911 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:03,911 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-03-10 11:14:03,911 INFO    SenderThread:40312 [sender.py:transition_state():617] send defer: 3
+2024-03-10 11:14:03,911 DEBUG   SenderThread:40312 [sender.py:send():382] send: stats
+2024-03-10 11:14:03,911 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:03,911 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-10 11:14:03,911 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:03,911 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-03-10 11:14:03,911 INFO    SenderThread:40312 [sender.py:transition_state():617] send defer: 4
+2024-03-10 11:14:03,911 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:03,911 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-10 11:14:03,911 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:03,911 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-03-10 11:14:03,911 INFO    SenderThread:40312 [sender.py:transition_state():617] send defer: 5
+2024-03-10 11:14:03,911 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:03,911 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-10 11:14:03,911 DEBUG   SenderThread:40312 [sender.py:send():382] send: summary
+2024-03-10 11:14:03,912 INFO    SenderThread:40312 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-10 11:14:03,912 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:03,912 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-03-10 11:14:03,912 INFO    SenderThread:40312 [sender.py:transition_state():617] send defer: 6
+2024-03-10 11:14:03,912 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:03,912 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-10 11:14:03,912 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:03,912 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-03-10 11:14:03,913 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:14:03,970 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/wandb-summary.json
+2024-03-10 11:14:04,229 INFO    SenderThread:40312 [sender.py:transition_state():617] send defer: 7
+2024-03-10 11:14:04,230 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:04,230 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-10 11:14:04,230 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:04,230 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-03-10 11:14:04,915 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-10 11:14:04,976 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/config.yaml
+2024-03-10 11:14:05,982 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/output.log
+2024-03-10 11:14:07,164 INFO    SenderThread:40312 [sender.py:transition_state():617] send defer: 8
+2024-03-10 11:14:07,164 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: poll_exit
+2024-03-10 11:14:07,165 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:07,166 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-10 11:14:07,166 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:07,166 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-03-10 11:14:07,167 INFO    SenderThread:40312 [job_builder.py:build():296] Attempting to build job artifact
+2024-03-10 11:14:07,167 INFO    SenderThread:40312 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-03-10 11:14:07,168 INFO    SenderThread:40312 [job_builder.py:build():402] adding wandb-job metadata file
+2024-03-10 11:14:07,172 INFO    SenderThread:40312 [sender.py:transition_state():617] send defer: 9
+2024-03-10 11:14:07,172 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:07,172 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-10 11:14:07,172 DEBUG   SenderThread:40312 [sender.py:send():382] send: artifact
+2024-03-10 11:14:07,928 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-10 11:14:07,995 INFO    Thread-26 :40312 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/output.log
+2024-03-10 11:14:09,351 INFO    SenderThread:40312 [sender.py:send_artifact():1494] sent artifact job-https___github.com_greasyfinger_nlp_a2.git_task_2_torch_Bert_model.py - {'id': 'QXJ0aWZhY3Q6NzQ5ODE5ODMz', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0NzMzODE5OA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzQ5ODE5ODMz', 'versionIndex': 1}}}
+2024-03-10 11:14:09,352 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:09,352 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: status_report
+2024-03-10 11:14:09,352 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-03-10 11:14:09,353 INFO    SenderThread:40312 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-10 11:14:10,004 INFO    SenderThread:40312 [dir_watcher.py:finish():388] scan: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files
+2024-03-10 11:14:10,004 INFO    SenderThread:40312 [dir_watcher.py:finish():402] scan save: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/requirements.txt requirements.txt
+2024-03-10 11:14:10,004 INFO    SenderThread:40312 [dir_watcher.py:finish():402] scan save: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/output.log output.log
+2024-03-10 11:14:10,005 INFO    SenderThread:40312 [dir_watcher.py:finish():402] scan save: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/config.yaml config.yaml
+2024-03-10 11:14:10,005 INFO    SenderThread:40312 [dir_watcher.py:finish():402] scan save: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/wandb-summary.json wandb-summary.json
+2024-03-10 11:14:10,007 INFO    SenderThread:40312 [dir_watcher.py:finish():402] scan save: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/conda-environment.yaml conda-environment.yaml
+2024-03-10 11:14:10,008 INFO    SenderThread:40312 [dir_watcher.py:finish():402] scan save: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/wandb-metadata.json wandb-metadata.json
+2024-03-10 11:14:10,008 INFO    SenderThread:40312 [sender.py:transition_state():617] send defer: 10
+2024-03-10 11:14:10,008 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: poll_exit
+2024-03-10 11:14:10,009 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:10,009 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-10 11:14:10,010 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:10,010 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-03-10 11:14:10,010 INFO    SenderThread:40312 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-10 11:14:10,887 INFO    wandb-upload_1:40312 [upload_job.py:push():131] Uploaded file /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/output.log
+2024-03-10 11:14:10,887 INFO    wandb-upload_2:40312 [upload_job.py:push():131] Uploaded file /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/config.yaml
+2024-03-10 11:14:10,893 INFO    wandb-upload_4:40312 [upload_job.py:push():131] Uploaded file /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/conda-environment.yaml
+2024-03-10 11:14:10,894 INFO    wandb-upload_3:40312 [upload_job.py:push():131] Uploaded file /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/wandb-summary.json
+2024-03-10 11:14:10,923 INFO    wandb-upload_0:40312 [upload_job.py:push():131] Uploaded file /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/files/requirements.txt
+2024-03-10 11:14:10,943 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-10 11:14:10,943 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: poll_exit
+2024-03-10 11:14:11,127 INFO    Thread-25 (_thread_body):40312 [sender.py:transition_state():617] send defer: 11
+2024-03-10 11:14:11,128 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:11,128 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-10 11:14:11,128 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:11,128 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-03-10 11:14:11,128 INFO    SenderThread:40312 [file_pusher.py:join():178] waiting for file pusher
+2024-03-10 11:14:11,129 INFO    SenderThread:40312 [sender.py:transition_state():617] send defer: 12
+2024-03-10 11:14:11,129 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:11,129 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-10 11:14:11,129 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:11,129 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-03-10 11:14:11,129 INFO    SenderThread:40312 [file_stream.py:finish():595] file stream finish called
+2024-03-10 11:14:11,947 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-10 11:14:12,626 INFO    SenderThread:40312 [file_stream.py:finish():599] file stream finish is done
+2024-03-10 11:14:12,626 INFO    SenderThread:40312 [sender.py:transition_state():617] send defer: 13
+2024-03-10 11:14:12,627 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: poll_exit
+2024-03-10 11:14:12,627 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:12,628 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-10 11:14:12,628 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:12,628 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-03-10 11:14:12,628 INFO    SenderThread:40312 [sender.py:transition_state():617] send defer: 14
+2024-03-10 11:14:12,629 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: defer
+2024-03-10 11:14:12,629 DEBUG   SenderThread:40312 [sender.py:send():382] send: final
+2024-03-10 11:14:12,629 INFO    HandlerThread:40312 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-10 11:14:12,629 DEBUG   SenderThread:40312 [sender.py:send():382] send: footer
+2024-03-10 11:14:12,630 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: defer
+2024-03-10 11:14:12,630 INFO    SenderThread:40312 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-03-10 11:14:12,631 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-10 11:14:12,631 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: poll_exit
+2024-03-10 11:14:12,632 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-10 11:14:12,633 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: server_info
+2024-03-10 11:14:12,634 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-10 11:14:12,634 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-10 11:14:12,635 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: job_info
+2024-03-10 11:14:12,635 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: server_info
+2024-03-10 11:14:13,054 DEBUG   SenderThread:40312 [sender.py:send_request():409] send_request: job_info
+2024-03-10 11:14:13,057 DEBUG   HandlerThread:40312 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-10 11:14:13,057 INFO    HandlerThread:40312 [handler.py:finish():869] shutting down handler
+2024-03-10 11:14:13,640 INFO    WriterThread:40312 [datastore.py:close():296] close: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240310_111222-njmefuix/run-njmefuix.wandb
+2024-03-10 11:14:14,057 INFO    SenderThread:40312 [sender.py:finish():1572] shutting down sender
+2024-03-10 11:14:14,057 INFO    SenderThread:40312 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-10 11:14:14,058 INFO    SenderThread:40312 [file_pusher.py:join():178] waiting for file pusher

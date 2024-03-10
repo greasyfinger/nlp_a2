@@ -1,0 +1,37 @@
+{
+    "os": "macOS-13.3-arm64-arm-64bit",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-03-10T05:38:15.224459",
+    "startedAt": "2024-03-10T05:38:14.014650",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/greasyfinger/Documents/nlp_a2/task_2_torch/Bert_model.py",
+    "codePathLocal": "Bert_model.py",
+    "codePath": "task_2_torch/Bert_model.py",
+    "git": {
+        "remote": "https://github.com/greasyfinger/nlp_a2.git",
+        "commit": "c12dc2c71d62307a6b23d3d5eb4ebc569746cf70"
+    },
+    "email": null,
+    "root": "/Users/greasyfinger/Documents/nlp_a2",
+    "host": "greasy-Macbook.local",
+    "username": "greasyfinger",
+    "executable": "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 130.80997848510742
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

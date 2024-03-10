@@ -4,6 +4,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 import wandb
+from tqdm import tqdm
 from sklearn.metrics import f1_score
 
 torch.backends.cudnn.deterministic = True
@@ -18,7 +19,7 @@ device = torch.device(
 )
 
 # change current directory
-os.chdir("task_2")
+os.chdir("task_2_torch")
 
 
 # Load and preprocess the data
@@ -108,7 +109,7 @@ def run_epochs(model, tokenizer, run_name):
     num_epochs = 10
     best_val_f1 = 0
     best_val_loss = 100
-    for epoch in range(num_epochs):
+    for epoch in tqdm(range(num_epochs), desc="Epochs"):
         model.train()
         train_loss = 0
         train_f1 = 0

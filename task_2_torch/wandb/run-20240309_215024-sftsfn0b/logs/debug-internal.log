@@ -1,0 +1,323 @@
+2024-03-09 21:50:24,141 INFO    StreamThr :37753 [internal.py:wandb_internal():86] W&B internal server running at pid: 37753, started at: 2024-03-09 21:50:24.140964
+2024-03-09 21:50:24,143 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status
+2024-03-09 21:50:24,146 INFO    WriterThread:37753 [datastore.py:open_for_write():87] open: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/run-sftsfn0b.wandb
+2024-03-09 21:50:24,146 DEBUG   SenderThread:37753 [sender.py:send():382] send: header
+2024-03-09 21:50:24,163 DEBUG   SenderThread:37753 [sender.py:send():382] send: run
+2024-03-09 21:50:24,962 INFO    SenderThread:37753 [dir_watcher.py:__init__():211] watching files in: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files
+2024-03-09 21:50:24,963 INFO    SenderThread:37753 [sender.py:_start_run_threads():1136] run started: sftsfn0b with start time 1710001224.142079
+2024-03-09 21:50:24,968 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: check_version
+2024-03-09 21:50:24,969 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: check_version
+2024-03-09 21:50:25,279 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: run_start
+2024-03-09 21:50:25,289 DEBUG   HandlerThread:37753 [system_info.py:__init__():27] System info init
+2024-03-09 21:50:25,290 DEBUG   HandlerThread:37753 [system_info.py:__init__():42] System info init done
+2024-03-09 21:50:25,290 INFO    HandlerThread:37753 [system_monitor.py:start():194] Starting system monitor
+2024-03-09 21:50:25,290 INFO    SystemMonitor:37753 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-09 21:50:25,290 INFO    HandlerThread:37753 [system_monitor.py:probe():214] Collecting system info
+2024-03-09 21:50:25,291 DEBUG   HandlerThread:37753 [system_info.py:probe():151] Probing system
+2024-03-09 21:50:25,291 INFO    SystemMonitor:37753 [interfaces.py:start():190] Started cpu monitoring
+2024-03-09 21:50:25,293 INFO    SystemMonitor:37753 [interfaces.py:start():190] Started disk monitoring
+2024-03-09 21:50:25,296 INFO    SystemMonitor:37753 [interfaces.py:start():190] Started gpuapple monitoring
+2024-03-09 21:50:25,297 INFO    SystemMonitor:37753 [interfaces.py:start():190] Started memory monitoring
+2024-03-09 21:50:25,298 INFO    SystemMonitor:37753 [interfaces.py:start():190] Started network monitoring
+2024-03-09 21:50:25,302 DEBUG   HandlerThread:37753 [system_info.py:_probe_git():136] Probing git
+2024-03-09 21:50:25,324 DEBUG   HandlerThread:37753 [system_info.py:_probe_git():144] Probing git done
+2024-03-09 21:50:25,324 DEBUG   HandlerThread:37753 [system_info.py:probe():199] Probing system done
+2024-03-09 21:50:25,324 DEBUG   HandlerThread:37753 [system_monitor.py:probe():223] {'os': 'macOS-13.3-arm64-arm-64bit', 'python': '3.11.5', 'heartbeatAt': '2024-03-09T16:20:25.291293', 'startedAt': '2024-03-09T16:20:24.135358', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/greasyfinger/Documents/nlp_a2/task_2_torch/LSTM_model.py', 'codePathLocal': 'LSTM_model.py', 'codePath': 'task_2_torch/LSTM_model.py', 'git': {'remote': 'https://github.com/greasyfinger/nlp_a2.git', 'commit': 'c12dc2c71d62307a6b23d3d5eb4ebc569746cf70'}, 'email': None, 'root': '/Users/greasyfinger/Documents/nlp_a2', 'host': 'greasy-Macbook.local', 'username': 'greasyfinger', 'executable': '/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'disk': {'/': {'total': 460.4317207336426, 'used': 130.5807342529297}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2024-03-09 21:50:25,324 INFO    HandlerThread:37753 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-09 21:50:25,324 INFO    HandlerThread:37753 [system_monitor.py:probe():227] Publishing system info
+2024-03-09 21:50:25,324 DEBUG   HandlerThread:37753 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-03-09 21:50:25,969 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/conda-environment.yaml
+2024-03-09 21:50:26,171 DEBUG   HandlerThread:37753 [system_info.py:_save_conda():220] Saving conda packages done
+2024-03-09 21:50:26,171 INFO    HandlerThread:37753 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-09 21:50:26,177 DEBUG   SenderThread:37753 [sender.py:send():382] send: files
+2024-03-09 21:50:26,177 INFO    SenderThread:37753 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-09 21:50:26,180 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-09 21:50:26,180 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: python_packages
+2024-03-09 21:50:26,181 DEBUG   SenderThread:37753 [sender.py:send():382] send: telemetry
+2024-03-09 21:50:26,182 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:50:26,182 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 21:50:26,182 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 21:50:26,508 DEBUG   SenderThread:37753 [sender.py:send():382] send: telemetry
+2024-03-09 21:50:26,973 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/conda-environment.yaml
+2024-03-09 21:50:26,974 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/requirements.txt
+2024-03-09 21:50:26,974 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/wandb-metadata.json
+2024-03-09 21:50:27,781 INFO    wandb-upload_0:37753 [upload_job.py:push():131] Uploaded file /var/folders/jw/_f2zhz1d7cv9s1t6_f3s1dvc0000gn/T/tmp57jbulu3wandb/p1lmntpz-wandb-metadata.json
+2024-03-09 21:50:29,518 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:50:34,543 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:50:39,566 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:50:41,187 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 21:50:41,188 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:50:41,189 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 21:50:45,520 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:50:48,223 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 21:50:48,224 DEBUG   SenderThread:37753 [sender.py:send():382] send: history
+2024-03-09 21:50:48,224 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 21:50:48,225 INFO    SenderThread:37753 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 21:50:49,063 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/output.log
+2024-03-09 21:50:49,064 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/wandb-summary.json
+2024-03-09 21:50:51,074 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/output.log
+2024-03-09 21:50:51,434 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:50:56,190 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 21:50:56,191 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 21:50:56,193 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:50:56,611 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:50:57,103 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/config.yaml
+2024-03-09 21:51:02,046 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:51:07,062 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:51:09,657 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 21:51:09,658 DEBUG   SenderThread:37753 [sender.py:send():382] send: history
+2024-03-09 21:51:09,658 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 21:51:09,660 INFO    SenderThread:37753 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 21:51:10,158 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/wandb-summary.json
+2024-03-09 21:51:11,163 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/output.log
+2024-03-09 21:51:11,195 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 21:51:11,196 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:51:11,196 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 21:51:12,542 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:51:17,565 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:51:22,590 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:51:25,303 DEBUG   SystemMonitor:37753 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-09 21:51:25,304 DEBUG   SenderThread:37753 [sender.py:send():382] send: telemetry
+2024-03-09 21:51:25,305 DEBUG   SenderThread:37753 [sender.py:send():382] send: stats
+2024-03-09 21:51:26,201 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:51:26,201 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 21:51:26,201 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 21:51:28,588 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:51:29,244 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/config.yaml
+2024-03-09 21:51:31,277 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 21:51:31,278 DEBUG   SenderThread:37753 [sender.py:send():382] send: history
+2024-03-09 21:51:31,278 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 21:51:31,279 INFO    SenderThread:37753 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 21:51:32,251 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/wandb-summary.json
+2024-03-09 21:51:33,253 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/output.log
+2024-03-09 21:51:34,432 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:51:39,455 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:51:41,206 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 21:51:41,206 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:51:41,206 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 21:51:44,569 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:51:49,585 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:51:52,264 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 21:51:52,265 DEBUG   SenderThread:37753 [sender.py:send():382] send: history
+2024-03-09 21:51:52,265 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 21:51:52,266 INFO    SenderThread:37753 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 21:51:52,331 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/wandb-summary.json
+2024-03-09 21:51:53,336 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/output.log
+2024-03-09 21:51:55,307 DEBUG   SenderThread:37753 [sender.py:send():382] send: stats
+2024-03-09 21:51:55,308 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:51:56,211 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 21:51:56,211 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:51:56,211 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 21:52:00,619 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:52:05,645 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:52:10,665 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:52:11,212 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 21:52:11,212 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:52:11,212 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 21:52:13,643 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 21:52:13,644 DEBUG   SenderThread:37753 [sender.py:send():382] send: history
+2024-03-09 21:52:13,644 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 21:52:13,645 INFO    SenderThread:37753 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 21:52:14,430 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/wandb-summary.json
+2024-03-09 21:52:15,435 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/output.log
+2024-03-09 21:52:15,787 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:52:20,813 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:52:25,313 DEBUG   SenderThread:37753 [sender.py:send():382] send: stats
+2024-03-09 21:52:26,217 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:52:26,217 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 21:52:26,217 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 21:52:26,218 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:52:31,683 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:52:35,135 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 21:52:35,136 DEBUG   SenderThread:37753 [sender.py:send():382] send: history
+2024-03-09 21:52:35,136 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 21:52:35,137 INFO    SenderThread:37753 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 21:52:35,538 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/wandb-summary.json
+2024-03-09 21:52:37,280 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:52:37,545 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/output.log
+2024-03-09 21:52:41,223 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:52:41,223 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 21:52:41,223 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 21:52:42,618 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:52:47,639 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:52:52,665 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:52:55,319 DEBUG   SenderThread:37753 [sender.py:send():382] send: stats
+2024-03-09 21:52:56,227 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:52:56,228 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 21:52:56,228 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 21:52:56,625 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 21:52:56,632 DEBUG   SenderThread:37753 [sender.py:send():382] send: history
+2024-03-09 21:52:56,632 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 21:52:56,632 INFO    SenderThread:37753 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 21:52:56,637 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/wandb-summary.json
+2024-03-09 21:52:57,755 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:52:59,653 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/output.log
+2024-03-09 21:53:02,780 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:53:07,806 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:53:11,233 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:53:11,233 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 21:53:11,233 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 21:53:13,627 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:53:18,158 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 21:53:18,159 DEBUG   SenderThread:37753 [sender.py:send():382] send: history
+2024-03-09 21:53:18,159 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 21:53:18,160 INFO    SenderThread:37753 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 21:53:18,746 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/wandb-summary.json
+2024-03-09 21:53:19,164 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:53:19,751 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/output.log
+2024-03-09 21:53:24,185 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:53:25,325 DEBUG   SenderThread:37753 [sender.py:send():382] send: stats
+2024-03-09 21:53:26,239 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-09 21:53:26,239 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: stop_status
+2024-03-09 21:53:26,240 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:53:29,628 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:53:34,653 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:53:39,572 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-09 21:53:39,573 DEBUG   SenderThread:37753 [sender.py:send():382] send: history
+2024-03-09 21:53:39,573 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: summary_record
+2024-03-09 21:53:39,573 INFO    SenderThread:37753 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 21:53:39,573 DEBUG   SenderThread:37753 [sender.py:send():382] send: telemetry
+2024-03-09 21:53:39,573 DEBUG   SenderThread:37753 [sender.py:send():382] send: exit
+2024-03-09 21:53:39,574 INFO    SenderThread:37753 [sender.py:send_exit():589] handling exit code: 0
+2024-03-09 21:53:39,574 INFO    SenderThread:37753 [sender.py:send_exit():591] handling runtime: 194
+2024-03-09 21:53:39,574 INFO    SenderThread:37753 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 21:53:39,574 INFO    SenderThread:37753 [sender.py:send_exit():597] send defer
+2024-03-09 21:53:39,574 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:39,574 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-09 21:53:39,574 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:39,574 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-03-09 21:53:39,574 INFO    SenderThread:37753 [sender.py:transition_state():617] send defer: 1
+2024-03-09 21:53:39,574 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:39,574 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-09 21:53:39,574 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:39,574 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-03-09 21:53:39,574 INFO    SenderThread:37753 [sender.py:transition_state():617] send defer: 2
+2024-03-09 21:53:39,574 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:39,575 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-09 21:53:39,575 INFO    HandlerThread:37753 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-09 21:53:39,575 INFO    HandlerThread:37753 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-09 21:53:39,575 DEBUG   SystemMonitor:37753 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-09 21:53:39,575 INFO    HandlerThread:37753 [interfaces.py:finish():202] Joined disk monitor
+2024-03-09 21:53:39,575 DEBUG   SystemMonitor:37753 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-09 21:53:39,657 INFO    HandlerThread:37753 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-03-09 21:53:39,657 INFO    HandlerThread:37753 [interfaces.py:finish():202] Joined memory monitor
+2024-03-09 21:53:39,657 INFO    HandlerThread:37753 [interfaces.py:finish():202] Joined network monitor
+2024-03-09 21:53:39,658 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:39,658 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-03-09 21:53:39,658 INFO    SenderThread:37753 [sender.py:transition_state():617] send defer: 3
+2024-03-09 21:53:39,658 DEBUG   SenderThread:37753 [sender.py:send():382] send: stats
+2024-03-09 21:53:39,658 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:39,658 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-09 21:53:39,658 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:53:39,658 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:39,658 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-03-09 21:53:39,658 INFO    SenderThread:37753 [sender.py:transition_state():617] send defer: 4
+2024-03-09 21:53:39,658 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:39,658 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-09 21:53:39,658 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:39,658 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-03-09 21:53:39,658 INFO    SenderThread:37753 [sender.py:transition_state():617] send defer: 5
+2024-03-09 21:53:39,658 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:39,658 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-09 21:53:39,658 DEBUG   SenderThread:37753 [sender.py:send():382] send: summary
+2024-03-09 21:53:39,659 INFO    SenderThread:37753 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-09 21:53:39,659 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:39,659 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-03-09 21:53:39,659 INFO    SenderThread:37753 [sender.py:transition_state():617] send defer: 6
+2024-03-09 21:53:39,659 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:39,659 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-09 21:53:39,659 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:39,659 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-03-09 21:53:39,661 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:53:39,854 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/wandb-summary.json
+2024-03-09 21:53:40,113 INFO    SenderThread:37753 [sender.py:transition_state():617] send defer: 7
+2024-03-09 21:53:40,113 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:40,113 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-09 21:53:40,113 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:40,114 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-03-09 21:53:40,579 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 21:53:40,843 INFO    SenderThread:37753 [sender.py:transition_state():617] send defer: 8
+2024-03-09 21:53:40,844 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: poll_exit
+2024-03-09 21:53:40,844 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:40,844 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-09 21:53:40,845 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:40,845 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-03-09 21:53:40,845 INFO    SenderThread:37753 [job_builder.py:build():296] Attempting to build job artifact
+2024-03-09 21:53:40,846 INFO    SenderThread:37753 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-03-09 21:53:40,861 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/output.log
+2024-03-09 21:53:40,864 INFO    Thread-13 :37753 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/config.yaml
+2024-03-09 21:53:40,896 INFO    SenderThread:37753 [job_builder.py:build():402] adding wandb-job metadata file
+2024-03-09 21:53:40,899 INFO    SenderThread:37753 [sender.py:transition_state():617] send defer: 9
+2024-03-09 21:53:40,900 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:40,900 DEBUG   SenderThread:37753 [sender.py:send():382] send: artifact
+2024-03-09 21:53:40,900 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-09 21:53:41,586 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 21:53:43,594 INFO    wandb-upload_0:37753 [upload_job.py:push():89] Uploaded file /Users/greasyfinger/Library/Application Support/wandb/artifacts/staging/tmp__hlvx3p
+2024-03-09 21:53:43,595 INFO    wandb-upload_1:37753 [upload_job.py:push():89] Uploaded file /Users/greasyfinger/Library/Application Support/wandb/artifacts/staging/tmp1cfheda1
+2024-03-09 21:53:45,468 INFO    SenderThread:37753 [sender.py:send_artifact():1494] sent artifact job-https___github.com_greasyfinger_nlp_a2.git_task_2_torch_LSTM_model.py - {'id': 'QXJ0aWZhY3Q6NzQ4OTkxMDU0', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0NzE4NjkwNg==', 'latestArtifact': None}}
+2024-03-09 21:53:45,468 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:45,468 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: status_report
+2024-03-09 21:53:45,468 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-03-09 21:53:45,469 INFO    SenderThread:37753 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-09 21:53:45,886 INFO    SenderThread:37753 [dir_watcher.py:finish():388] scan: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files
+2024-03-09 21:53:45,886 INFO    SenderThread:37753 [dir_watcher.py:finish():402] scan save: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/requirements.txt requirements.txt
+2024-03-09 21:53:45,887 INFO    SenderThread:37753 [dir_watcher.py:finish():402] scan save: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/output.log output.log
+2024-03-09 21:53:45,888 INFO    SenderThread:37753 [dir_watcher.py:finish():402] scan save: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/config.yaml config.yaml
+2024-03-09 21:53:45,888 INFO    SenderThread:37753 [dir_watcher.py:finish():402] scan save: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/wandb-summary.json wandb-summary.json
+2024-03-09 21:53:45,890 INFO    SenderThread:37753 [dir_watcher.py:finish():402] scan save: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/conda-environment.yaml conda-environment.yaml
+2024-03-09 21:53:45,893 INFO    SenderThread:37753 [dir_watcher.py:finish():402] scan save: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/wandb-metadata.json wandb-metadata.json
+2024-03-09 21:53:45,893 INFO    SenderThread:37753 [sender.py:transition_state():617] send defer: 10
+2024-03-09 21:53:45,893 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: poll_exit
+2024-03-09 21:53:45,894 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:45,894 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-09 21:53:45,896 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:45,896 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-03-09 21:53:45,896 INFO    SenderThread:37753 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-09 21:53:46,584 INFO    wandb-upload_0:37753 [upload_job.py:push():131] Uploaded file /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/requirements.txt
+2024-03-09 21:53:46,610 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-09 21:53:46,611 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 21:53:46,611 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: poll_exit
+2024-03-09 21:53:46,744 INFO    wandb-upload_3:37753 [upload_job.py:push():131] Uploaded file /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/wandb-summary.json
+2024-03-09 21:53:46,745 INFO    wandb-upload_2:37753 [upload_job.py:push():131] Uploaded file /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/config.yaml
+2024-03-09 21:53:46,754 INFO    wandb-upload_1:37753 [upload_job.py:push():131] Uploaded file /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/output.log
+2024-03-09 21:53:46,789 INFO    wandb-upload_4:37753 [upload_job.py:push():131] Uploaded file /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/files/conda-environment.yaml
+2024-03-09 21:53:46,994 INFO    Thread-12 (_thread_body):37753 [sender.py:transition_state():617] send defer: 11
+2024-03-09 21:53:46,995 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:46,995 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-09 21:53:46,996 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:46,996 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-03-09 21:53:46,996 INFO    SenderThread:37753 [file_pusher.py:join():178] waiting for file pusher
+2024-03-09 21:53:46,997 INFO    SenderThread:37753 [sender.py:transition_state():617] send defer: 12
+2024-03-09 21:53:46,997 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:46,997 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-09 21:53:46,997 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:46,998 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-03-09 21:53:46,998 INFO    SenderThread:37753 [file_stream.py:finish():595] file stream finish called
+2024-03-09 21:53:47,593 INFO    SenderThread:37753 [file_stream.py:finish():599] file stream finish is done
+2024-03-09 21:53:47,594 INFO    SenderThread:37753 [sender.py:transition_state():617] send defer: 13
+2024-03-09 21:53:47,594 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:47,594 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-09 21:53:47,595 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:47,595 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-03-09 21:53:47,595 INFO    SenderThread:37753 [sender.py:transition_state():617] send defer: 14
+2024-03-09 21:53:47,595 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: defer
+2024-03-09 21:53:47,596 DEBUG   SenderThread:37753 [sender.py:send():382] send: final
+2024-03-09 21:53:47,596 DEBUG   SenderThread:37753 [sender.py:send():382] send: footer
+2024-03-09 21:53:47,596 INFO    HandlerThread:37753 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-09 21:53:47,596 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: defer
+2024-03-09 21:53:47,596 INFO    SenderThread:37753 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-03-09 21:53:47,598 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-09 21:53:47,598 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: poll_exit
+2024-03-09 21:53:47,599 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-09 21:53:47,600 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: server_info
+2024-03-09 21:53:47,600 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-09 21:53:47,600 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-09 21:53:47,601 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: server_info
+2024-03-09 21:53:47,601 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: job_info
+2024-03-09 21:53:47,936 DEBUG   SenderThread:37753 [sender.py:send_request():409] send_request: job_info
+2024-03-09 21:53:47,937 DEBUG   HandlerThread:37753 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-09 21:53:47,937 INFO    HandlerThread:37753 [handler.py:finish():869] shutting down handler
+2024-03-09 21:53:48,608 INFO    WriterThread:37753 [datastore.py:close():296] close: /Users/greasyfinger/Documents/nlp_a2/task_2_torch/wandb/run-20240309_215024-sftsfn0b/run-sftsfn0b.wandb
+2024-03-09 21:53:48,939 INFO    SenderThread:37753 [sender.py:finish():1572] shutting down sender
+2024-03-09 21:53:48,939 INFO    SenderThread:37753 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-09 21:53:48,940 INFO    SenderThread:37753 [file_pusher.py:join():178] waiting for file pusher

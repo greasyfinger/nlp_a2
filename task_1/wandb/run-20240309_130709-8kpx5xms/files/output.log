@@ -1,0 +1,41 @@
+
+Epoch 1/10, Train Loss: 1.2009998590822715, Val Loss: 0.3063845389419132, Train F1: 0.05961688005787302, Val F1: 0.08259659669067866
+Epoch 2/10, Train Loss: 0.23674192905900962, Val Loss: 0.1640371239847607, Train F1: 0.08423495025743319, Val F1: 0.0878215656506986
+Epoch 3/10, Train Loss: 0.11566309601187232, Val Loss: 0.08695665217108196, Train F1: 0.08680876034179283, Val F1: 0.08940574358268641
+Epoch 4/10, Train Loss: 0.07919341867485369, Val Loss: 0.07580577755967775, Train F1: 0.08773538547044597, Val F1: 0.08973684097275088
+Epoch 5/10, Train Loss: 0.0716831172812745, Val Loss: 0.07074992888503605, Train F1: 0.08854050503288896, Val F1: 0.09004160425886365
+Epoch 6/10, Train Loss: 0.0672141535289259, Val Loss: 0.06689139662517442, Train F1: 0.08877588014827278, Val F1: 0.09033849240371829
+Traceback (most recent call last):
+  File "/Users/greasyfinger/Documents/nlp_a2/task_1/LSTM_lbert.py", line 30, in <module>
+    run_epochs(model, tokenizer, "LSTM-Legal_Bert_1")
+  File "/Users/greasyfinger/Documents/nlp_a2/task_1/blueprint.py", line 145, in run_epochs
+    for inputs, labels in train_loader:
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+            ~~~~~~~~~~~~^^^^^
+  File "/Users/greasyfinger/Documents/nlp_a2/task_1/blueprint.py", line 85, in __getitem__
+    encoded = self.tokenizer.encode_plus(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 2781, in encode_plus
+    return self._encode_plus(
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/site-packages/transformers/tokenization_utils_fast.py", line 517, in _encode_plus
+    batched_output = self._batch_encode_plus(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/site-packages/transformers/tokenization_utils_fast.py", line 437, in _batch_encode_plus
+    self.set_truncation_and_padding(
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/site-packages/transformers/tokenization_utils_fast.py", line 378, in set_truncation_and_padding
+    "strategy": truncation_strategy.value,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/bzzt/lib/python3.11/enum.py", line 193, in __get__
+    def __get__(self, instance, ownerclass=None):
+KeyboardInterrupt

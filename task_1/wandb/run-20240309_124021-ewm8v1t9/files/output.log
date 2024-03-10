@@ -1,0 +1,12 @@
+
+Epoch 1/10, Train Loss: 0.08011692370551515, Val Loss: 0.05337111345595784, Train F1: 0.09533322185028963, Val F1: 0.11440899758608385
+Epoch 2/10, Train Loss: 0.05099133253691206, Val Loss: 0.05425697705811924, Train F1: 0.12359821610981096, Val F1: 0.11612031987810134
+Epoch 3/10, Train Loss: 0.04550932762602648, Val Loss: 0.04597446421782176, Train F1: 0.1388060463435716, Val F1: 0.14985914940609618
+Epoch 4/10, Train Loss: 0.04156993031204934, Val Loss: 0.042926829266879296, Train F1: 0.16116049747596098, Val F1: 0.17857383528084858
+Traceback (most recent call last):
+  File "/Users/greasyfinger/Documents/nlp_a2/task_1/LSTM_lbert.py", line 30, in <module>
+    run_epochs(model, tokenizer, "LSTM-Legal_Bert_1")
+  File "/Users/greasyfinger/Documents/nlp_a2/task_1/blueprint.py", line 152, in run_epochs
+    train_loss += loss.item()
+                  ^^^^^^^^^^^
+KeyboardInterrupt

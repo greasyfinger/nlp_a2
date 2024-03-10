@@ -23,6 +23,7 @@ os.chdir("task_1")
 # Pre defined variables
 num_labels = 27
 idx_to_label = [
+    "O",
     "B_CASE_NUMBER",
     "B_COURT",
     "B_DATE",
@@ -49,7 +50,6 @@ idx_to_label = [
     "I_RESPONDENT",
     "I_STATUTE",
     "I_WITNESS",
-    "O",
 ]
 
 
@@ -135,7 +135,7 @@ def run_epochs(model, tokenizer, run_name):
     wandb.watch(model)
 
     # Train and evaluate the model
-    num_epochs = 10
+    num_epochs = 50
     best_val_f1 = 0
     best_val_loss = 100
     for epoch in range(num_epochs):
