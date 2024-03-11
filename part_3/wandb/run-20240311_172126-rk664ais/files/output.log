@@ -1,0 +1,10 @@
+
+
+Epochs:  10%|█         | 1/10 [03:26<30:56, 206.23s/it]
+
+Epochs:  20%|██        | 2/10 [06:52<27:31, 206.48s/it]
+
+Epochs:  30%|███       | 3/10 [10:13<23:45, 203.64s/it]
+
+Epochs:  30%|███       | 3/10 [13:28<31:25, 269.38s/it]
+Stopping early at epoch 4 due to no improvement.

@@ -1,0 +1,36 @@
+{
+    "os": "macOS-14.2.1-arm64-arm-64bit",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-03-11T10:41:23.163056",
+    "startedAt": "2024-03-11T10:41:22.304491",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "git@github.com:greasyfinger/nlp_a2.git",
+        "commit": "1f7eed3bedcfce73bf6a9e2fe8b67495771bf259"
+    },
+    "email": "kaifraushan@gmail.com",
+    "root": "/Users/mo/Desktop/repos/nlp_a2",
+    "host": "mos-MacBook-Air.local",
+    "username": "mo",
+    "executable": "/Users/mo/Downloads/ENTER/envs/env_pytorch/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 217.30212020874023
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

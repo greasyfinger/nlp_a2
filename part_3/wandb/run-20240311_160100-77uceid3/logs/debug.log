@@ -29,3 +29,5 @@ config: {}
 2024-03-11 16:01:02,859 INFO    MainThread:54159 [wandb_run.py:_redirect():2186] Redirects installed.
 2024-03-11 16:01:02,860 INFO    MainThread:54159 [wandb_init.py:init():847] run started, returning control to user process
 2024-03-11 16:01:02,861 INFO    MainThread:54159 [wandb_watch.py:watch():51] Watching
+2024-03-11 16:10:06,444 INFO    MainThread:54159 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-11 16:10:06,444 INFO    MainThread:54159 [wandb_init.py:_pause_backend():437] pausing backend
