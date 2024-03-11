@@ -1,6 +1,0 @@
-
-
-Epochs:  10%|█         | 1/10 [03:23<30:29, 203.26s/it]
-Epoch 1/10, Train Loss: tensor([7.5615], device='mps:0', grad_fn=<DivBackward0>), Val Loss: tensor([6.0441], device='mps:0'), Train F1: 0.6339698839554363, Val F1: 0.0
-
-
